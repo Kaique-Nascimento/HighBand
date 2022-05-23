@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Site</title>
+    <link rel="stylesheet" href="grid.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
-    <!-- NavBar    NÃO MEXE        -->
+    <!-- NavBar -->
     <nav class="navbar navbar-expand-lg bg-black">
         <div class="container-fluid">
-            <img src="img/logo.png" width="10%" style="color: white"> <h4 style="color: white"> HighBand</h4></a>
+          <img src="img/logo.png" width="10%" style="color: white"> <h4 style="color: white"> HighBand</h4>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon bg-light"></span>
           </button>
@@ -19,20 +20,36 @@
               <li class="nav-item">
                   <a class="nav-link active text-white" aria-current="page" href="#" style="margin-left: 100px">Home</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#" style="margin-left: 10px">Quem Somos</a>
+        </li>
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#" style="margin-left: 10px">Casa</a>
+                <a class="nav-link active text-white" aria-current="page" href="#" style="margin-left: 10px">Contato </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#" style="margin-left: 10px">Mansão</a>
+                <a class="nav-link active text-white" aria-current="page" href="#" style="margin-left: 10px">Localização</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#" style="margin-left: 10px">Apartamento no Guarujá</a>
+              <li class="nav-item dropdown">
+                <a style="color:white"class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Bandas</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Bandas Famosas</a></li>
+                  <li><a class="dropdown-item" href="#">Bandas Quase Famosas</a></li>
+                  <li><a class="dropdown-item" href="#">Bandas Que Vão Ficar Famosas</a></li>
+                </ul>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <!-- Até aqui  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <!-- Até aqui  -->
+  <br>
+  <!-- Ideia para página quem somos -->
+      <center>
+        <img src="img/logo.png" alt="Logo">
+        <h5> We´re gonna <strong> ROCK </strong> your Band!</h5>
+      </center>
+ <!-- Até aqui-->
   </body>
 </html>
