@@ -1,3 +1,15 @@
 html{
     scroll-behavior: smooth;
 }
+.nav-item{
+    transition: all 1s;
+    margin: 0px;
+}
+.nav-item:hover{
+    transition: all 1s;
+    font-size: 20px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    }
