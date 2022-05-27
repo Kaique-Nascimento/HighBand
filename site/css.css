@@ -29,3 +29,9 @@ a {
     color: white;
     background-size: cover;
    }
+.escrito{
+    top: 50px
+}
+.fundoCarousel{
+    padding-bottom: 500px;
+}
