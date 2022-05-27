@@ -13,3 +13,19 @@ html{
 a {
     text-decoration: none;
     }
+#pesquisa{
+    margin-left: 400px;
+}
+@media (max-width: 1400px)
+{
+  #pesquisa
+   {
+    margin-left: 15%;
+   }
+}
+
+#fundo{
+    background-image: url(https://w.wallhaven.cc/full/3z/wallhaven-3zgz2y.png);
+    color: white;
+    background-size: cover;
+   }
