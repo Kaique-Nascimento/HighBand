@@ -38,3 +38,7 @@ a {
 .fundoCarousel{
     padding-bottom: 500px;
 }
+.fundo2{
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(3,5,1,1) 100%);
+}
