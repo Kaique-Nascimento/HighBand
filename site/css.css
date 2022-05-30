@@ -27,7 +27,7 @@ a {
 
 #fundo{
     /* background: rgba(0, 0, 0, 0.7) url(https://w.wallhaven.cc/full/3z/wallhaven-3zgz2y.png); */
-    background: rgba(0, 0, 0, 0.7) url(https://w.wallhaven.cc/full/6q/wallhaven-6qo9zx.jpg);
+    background: rgba(0, 0, 0, 0.7) url(img/fundo1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@ a {
 background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(3,5,1,1) 100%);
 }
 #fundo3{
-    background: rgba(0, 0, 0, 0.7) url(https://w.wallhaven.cc/full/q2/wallhaven-q2oyll.jpg);
+    background: rgba(0, 0, 0, 0.7) url(img/fundo2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
