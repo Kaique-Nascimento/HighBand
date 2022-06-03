@@ -14,7 +14,7 @@ a {
     text-decoration: none;
     }
 .pesquisa{
-    margin-left: 500%;
+    margin-left: 600px;
 }
 @media (max-width: 1400px)
 {
@@ -26,7 +26,6 @@ a {
 
 
 #fundo{
-    /* background: rgba(0, 0, 0, 0.7) url(https://w.wallhaven.cc/full/3z/wallhaven-3zgz2y.png); */
     background: rgba(0, 0, 0, 0.7) url(img/fundo1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -41,8 +40,9 @@ a {
     padding-bottom: 500px;
 }
 .fundo2{
-    background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(3,5,1,1) 100%);
+  color: white;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(35,36,33,1) 52%, rgba(0,0,0,0.9547413793103449) 99%);
 }
 #fundo3{
     background: rgba(0, 0, 0, 0.7) url(img/fundo2.jpg);
@@ -52,6 +52,27 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(3,5,1,1) 100%);
     background-blend-mode: darken;
     color: white;
    }
+.fundo4{
+    color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(26,27,3,0.9547413793103449) 92%);
+  }
+  #fundo5{
+    background: rgba(0, 0, 0, 0.7) url(img/fundo5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+   }
+#fundo-cad{
+    background: rgba(0, 0, 0, 0.7) url(img/fundo4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+  }
 .borda{
     border-style: solid;
     margin-left: 10px;
@@ -188,4 +209,43 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(3,5,1,1) 100%);
 }
 .nada:hover{
     opacity: 1;
+}
+
+#formulario{
+  text-align: center;
+  border: solid;
+  margin-left: 200px; 
+  margin-right: 200px;
+  border-radius: 20px; 
+  background: rgb(0,0,0);
+  color: white; 
+  margin: 0 auto;
+  width: 700px; 
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+#formulario > label, input {
+	width:150px;
+	margin: 10px 210px;
+  
+}
+
+#formulario > fieldset {
+	
+	width:600px;
+
+}
+.button{
+  padding: 20px;
+  transition: all 0.2s;
+}
+.button:hover{
+  transition: all 0.2s;
+  filter:brightness(60%);
+}
+#body-cad{
+  background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(26,27,3,0.9547413793103449) 92%);
 }
