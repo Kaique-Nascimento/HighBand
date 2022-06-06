@@ -39,10 +39,9 @@ a {
 .fundoCarousel{
     padding-bottom: 500px;
 }
-.fundo2{
+.fundo2, .fundo4{
   color: white;
-  background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(35,36,33,1) 52%, rgba(0,0,0,0.9547413793103449) 99%);
+  background-image: url(/img/star.svg);
 }
 #fundo3{
     background: rgba(0, 0, 0, 0.7) url(img/fundo2.jpg);
@@ -52,11 +51,6 @@ a {
     background-blend-mode: darken;
     color: white;
    }
-.fundo4{
-    color: white;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(26,27,3,0.9547413793103449) 92%);
-  }
   #fundo5{
     background: rgba(0, 0, 0, 0.7) url(img/fundo5.jpg);
     background-position: center;
@@ -249,3 +243,17 @@ a {
   background: rgb(0,0,0);
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(26,27,3,0.9547413793103449) 92%);
 }
+
+::-webkit-scrollbar{
+  width: 20px;
+  background-color: #000;
+}
+::-webkit-scrollbar-track{
+  background: #ddd;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+  background: #5E5E5E;
+  border-radius: 20px;
+}
+
