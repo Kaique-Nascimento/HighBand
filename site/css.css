@@ -1,5 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+*{
+  font-family: 'Poppins', sans-serif;
+}
+@font-face {
+  font-family: Metalica;
+  src: url('font/PASTOROF.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Bitous;
+  src: url('font/BOOTLE__.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Mamonas;
+  src: url('font/La_Bamba.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+#metalica{
+  font-family: Metalica;
+  font-size: 50px;
+}
+#beatles{
+  font-family: Bitous;
+  font-size: 30px;
+}
+#mamona{
+  font-family: Mamonas;
+  font-size: 30px;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -9,7 +46,7 @@ html{
 }
 .nav-item:hover{
     transition: all 0.5s;
-    font-size: 20px;
+    opacity: 50%;
     color: white;
 }
 a {
@@ -318,4 +355,37 @@ p{
 select:has(option[value="rock"]) {
   animation: fundo2 5s infinite;
 }
-*/
+
+#among{
+  background: rgba(0, 0, 0, 0.7) url(img/fundo1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  color: white;
+ }
+ */
+ #among{
+    background: rgba(0, 0, 0, 0.7) url(img/among.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+  }
+  #spider{
+    background: rgba(0, 0, 0, 0.7) url(img/spider.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+  }
+  #val{
+    background: rgba(0, 0, 0, 0.7) url(img/valo.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+  }
